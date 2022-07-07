@@ -1,0 +1,92 @@
+.conteiner{
+    background: black;
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contenido__img{
+    width: 250px;
+    padding-right: 30px;
+}
+.contenido__mensaje{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.contenido__contacto{
+    display: flex;
+    flex-direction: column;
+}
+.contacto__tipo{
+    color: #A2A2A2;
+}
+.contacto, .contenido__opinion{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+    width: 400px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 8px;
+}
+.contacto__nombre, .contacto__mensaje{
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    resize: none;
+}
+.enviar{
+    width: 120px;
+    border-radius: 5px;
+    background: white;
+    border: none;
+    padding: .7rem 0;
+    color: black;
+    cursor: pointer;
+}
+.contenido__anuncio{
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: white;
+}
+.contenido__mensaje_link{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
+.rodapie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+    font-style: normal;
+}
+
+@media screen and ( max-width: 840px){
+    .contenido{
+        flex-direction: column;
+    }
+}
+
+@media screen and ( max-width: 700px){
+    .conteiner{
+        flex-direction: column;
+    }
+}
+@media screen and ( max-width: 700px){
+    .contacto, .contenido__opinion{
+        width: 100%;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header class="cabecera">
+        <section class="cabecera__header">
+            <div class="cabecera__logo">
+                <a href="index.html"><img class="cabecera__img" src="./img/logo.png"></a>
+                <div class="cabecera__buscar">
+                    <input class="cabecera__texto" type="text" placeholder="¿Qué desea buscar?">
+                    <button class="cabecera__boton"><img src="./img/Vector.png" alt=""></button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="login">
+            <form class="login__contenedor">
+                <h2 class="login__iniciar">Iniciar Sesión</h2>
+                <div class="login__nombre">
+                    <label class="contacto__tipo" for="nombre">Nombre</label>
+                    <input class="contacto__nombre" type="text" id="nombre">
+                </div>
+                <div class="login__opinion">
+                    <label class="contacto__tipo" for="contraseña">Escriba su contraseña</label>
+                    <input class="contacto__nombre"  placeholder="**********" type="password" id="contraseña">
+                </div>
+                <a  href="productos.html" class="Entrar"> Entrar</a>
+            </form>
+        </section>
+        
+    </main>
+    <footer class="conteiner">
+        <section class="contenido">
+            <div>
+                <img class="contenido__img" src="./img/logo2.svg">
+            </div>
+            <div class="contenido__mensaje">
+                <a class="contenido__mensaje_link" href="#">Quienes somos</a>
+                <a class="contenido__mensaje_link" href="#">Política de privacidad</a>
+                <a class="contenido__mensaje_link" href="#">Programa de fidelidad</a>
+                <a class="contenido__mensaje_link" href="#">Nuestras Tiendas</a>
+                <a class="contenido__mensaje_link" href="#">Quiero ser franquiciado</a>
+                <a class="contenido__mensaje_link" href="#"> Anúncie aquí</a> 
+              </div>
+        </section>
+        <section>
+            <form class="contenido__contacto">
+                <h2 class="contenido__anuncio">Hable con Nosotros</h2>
+                <div class="contacto">
+                    <label class="contacto__tipo" for="nombre">Nombre</label>
+                    <input class="contacto__nombre" type="text" id="nombre">
+                </div>
+                <div class="contenido__opinion">
+                    <label class="contacto__tipo" for="mensaje">Escriba su mensaje</label>
+                    <textarea class="contacto__mensaje" id="mensaje" cols="30" rows="8"></textarea>
+                </div>
+                <button class="enviar">Enviar mensaje</button>
+            </form>
+        </section>
+    </footer>
+    <div class="rodapie">
+        <p>Desarrollado por Daniel Laura Álvarez</p>
+        <p>2022</p>
+    </div>
+</body>
+</html>
